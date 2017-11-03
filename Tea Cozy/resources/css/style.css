@@ -1,0 +1,104 @@
+/*class for background color*/
+.background{
+  background-color: black;
+  width: auto;
+}
+/*h colors*/
+ h1, h2, h3, h4, h5, h6, a {
+  color: white;
+  font-family: Helvetica;
+}
+
+/*heading class for location of elements and font syling*/
+.heading{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+
+}
+/*laction for heading image*/
+.tea_cozy{
+  height: 50px;
+  padding-right: 10px;
+  margin: 0px;
+    flex: 8;
+}
+/*locate elements of class location*/
+.location{
+  padding: 5px;
+  margin: 10px;
+  font-size: 25px;
+  flex: 1;
+  text-decoration: underline;
+}
+/* Image and element syling for main container*/
+.main_image{
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+display: flex;
+align-items: center;
+z-index: 1;
+height: 700px;
+width: 1200px;
+margin-left: 45px;
+}
+/*Image and styling for class mission loacted on our mission*/
+.mission{
+  width: 1200px;
+  background-color: black;
+  font-family: Helvetica ;
+  z-index: 2;
+}
+/*container specs*/
+.middleContainer{
+  width: 1000px;
+  height: auto;
+  margin-left: 150px;
+}
+/*possitioning for tea images and text*/
+.tea_image{
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  margin-left: 150px;
+}
+/*possitioning for images and text on bottom of tea of the month container*/
+.centerImages {
+  width: 670px;
+  margin-left: 300px;
+}
+
+/*Bottom container size and image*/
+.bottomContainer{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  height: 500px;
+  width: 1200px;
+  border: 30px black solid;
+}
+/*Bottom container styling*/
+.locations{
+  background-color: black;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  margin-bottom: 170px;
+  opacity: 1;
+}
+/*loction for box containers over Locations image*/
+.locate {
+  width: 1000px;
+  text-align: bottom;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+/*text at bottom of page*/
+.copyright{
+  margin-left: 20px;
+  font-size: 20px;
+}
